@@ -1,1 +1,0 @@
-cmd_/home/ubuntu/ksh/pi_bsp/drivers/p527_ledkey_proc/p527_ledkey_dev.ko := arm-linux-gnueabihf-ld -r  -EL -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/ubuntu/ksh/pi_bsp/drivers/p527_ledkey_proc/p527_ledkey_dev.ko /home/ubuntu/ksh/pi_bsp/drivers/p527_ledkey_proc/p527_ledkey_dev.o /home/ubuntu/ksh/pi_bsp/drivers/p527_ledkey_proc/p527_ledkey_dev.mod.o;  true

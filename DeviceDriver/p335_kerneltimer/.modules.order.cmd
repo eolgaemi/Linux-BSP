@@ -1,1 +1,0 @@
-cmd_/home/ubuntu/pi_bsp/drivers/p335_kerneltimer/modules.order := {   echo /home/ubuntu/pi_bsp/drivers/p335_kerneltimer/kerneltimerLed.ko; :; } > /home/ubuntu/pi_bsp/drivers/p335_kerneltimer/modules.order

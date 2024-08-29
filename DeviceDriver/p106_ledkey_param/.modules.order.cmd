@@ -1,1 +1,0 @@
-cmd_/home/ubuntu/pi_bsp/drivers/p106_ledkey_param/modules.order := {   echo /home/ubuntu/pi_bsp/drivers/p106_ledkey_param/hello_ledkey_param.ko; :; } > /home/ubuntu/pi_bsp/drivers/p106_ledkey_param/modules.order

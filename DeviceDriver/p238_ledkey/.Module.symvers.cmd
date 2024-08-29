@@ -1,1 +1,0 @@
-cmd_/mnt/lect_nfs/drivers_lect/p238_ledkey/Module.symvers :=  sed 's/ko$$/o/'  /mnt/lect_nfs/drivers_lect/p238_ledkey/modules.order | scripts/mod/modpost -m -a     -o /mnt/lect_nfs/drivers_lect/p238_ledkey/Module.symvers -e -i Module.symvers -T - 

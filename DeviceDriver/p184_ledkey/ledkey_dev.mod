@@ -1,1 +1,0 @@
-/home/ubuntu/pi_bsp/drivers/p184_ledkey/ledkey_dev.o

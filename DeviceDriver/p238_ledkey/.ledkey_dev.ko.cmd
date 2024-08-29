@@ -1,1 +1,0 @@
-cmd_/mnt/lect_nfs/drivers_lect/p238_ledkey/ledkey_dev.ko := arm-linux-gnueabihf-ld -r  -EL -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /mnt/lect_nfs/drivers_lect/p238_ledkey/ledkey_dev.ko /mnt/lect_nfs/drivers_lect/p238_ledkey/ledkey_dev.o /mnt/lect_nfs/drivers_lect/p238_ledkey/ledkey_dev.mod.o;  true

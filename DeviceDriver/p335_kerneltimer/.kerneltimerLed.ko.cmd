@@ -1,1 +1,0 @@
-cmd_/home/ubuntu/pi_bsp/drivers/p335_kerneltimer/kerneltimerLed.ko := arm-linux-gnueabihf-ld -r  -EL -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/ubuntu/pi_bsp/drivers/p335_kerneltimer/kerneltimerLed.ko /home/ubuntu/pi_bsp/drivers/p335_kerneltimer/kerneltimerLed.o /home/ubuntu/pi_bsp/drivers/p335_kerneltimer/kerneltimerLed.mod.o;  true

@@ -1,1 +1,0 @@
-cmd_/home/ubuntu/pi_bsp/drivers/p335_kerneltimer_ledkey_dev/kerneltimer_ledkey_dev.mod := printf '%s\n'   kerneltimer_ledkey_dev.o | awk '!x[$$0]++ { print("/home/ubuntu/pi_bsp/drivers/p335_kerneltimer_ledkey_dev/"$$0) }' > /home/ubuntu/pi_bsp/drivers/p335_kerneltimer_ledkey_dev/kerneltimer_ledkey_dev.mod

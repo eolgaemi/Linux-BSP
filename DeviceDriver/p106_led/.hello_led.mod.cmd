@@ -1,1 +1,0 @@
-cmd_/home/ubuntu/pi_bsp/drivers/p106_led/hello_led.mod := printf '%s\n'   hello_led.o | awk '!x[$$0]++ { print("/home/ubuntu/pi_bsp/drivers/p106_led/"$$0) }' > /home/ubuntu/pi_bsp/drivers/p106_led/hello_led.mod
