@@ -1,0 +1,1 @@
+cmd_/mnt/lect_nfs/drivers_lect/p238_ledkey/ledkey_dev.mod := printf '%s\n'   ledkey_dev.o | awk '!x[$$0]++ { print("/mnt/lect_nfs/drivers_lect/p238_ledkey/"$$0) }' > /mnt/lect_nfs/drivers_lect/p238_ledkey/ledkey_dev.mod

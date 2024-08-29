@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/ksh/pi_bsp/drivers/p527_ledkey_proc/Module.symvers :=  sed 's/ko$$/o/'  /home/ubuntu/ksh/pi_bsp/drivers/p527_ledkey_proc/modules.order | scripts/mod/modpost -m -a     -o /home/ubuntu/ksh/pi_bsp/drivers/p527_ledkey_proc/Module.symvers -e -i Module.symvers -T - 

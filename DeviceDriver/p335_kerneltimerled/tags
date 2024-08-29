@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	//
+DEBUG	kerneltimerLedKey.c	/^#define DEBUG /;"	d	file:
+GPIOCNT	kerneltimerLedKey.c	/^#define GPIOCNT /;"	d	file:
+INCLUDE_VERMAGIC	kerneltimerLedKey.mod.c	/^#define INCLUDE_VERMAGIC$/;"	d	file:
+MODULE_INFO	kerneltimerLedKey.mod.c	/^MODULE_INFO(name, KBUILD_MODNAME);$/;"	p	file:
+MODULE_INFO	kerneltimerLedKey.mod.c	/^MODULE_INFO(vermagic, VERMAGIC_STRING);$/;"	p	file:
+OFF	kerneltimerLedKey.c	/^#define OFF /;"	d	file:
+ON	kerneltimerLedKey.c	/^#define ON /;"	d	file:
+____versions	kerneltimerLedKey.mod.c	/^static const struct modversion_info ____versions[]$/;"	v	typeref:typename:const struct modversion_info[]__used __section ("")	file:
+gpioKey	kerneltimerLedKey.c	/^static int gpioKey[] = {16,17,18,19,20,21,22,23};$/;"	v	typeref:typename:int[]	file:
+gpioKeyFree	kerneltimerLedKey.c	/^static void gpioKeyFree(void)$/;"	f	typeref:typename:void	file:
+gpioKeyFree	kerneltimerLedKey.c	/^static void gpioKeyFree(void);$/;"	p	typeref:typename:void	file:
+gpioKeyGet	kerneltimerLedKey.c	/^static long gpioKeyGet(void)$/;"	f	typeref:typename:long	file:
+gpioKeyGet	kerneltimerLedKey.c	/^static long gpioKeyGet(void);$/;"	p	typeref:typename:long	file:
+gpioKeyInit	kerneltimerLedKey.c	/^static long gpioKeyInit(void)$/;"	f	typeref:typename:long	file:
+gpioKeyInit	kerneltimerLedKey.c	/^static long gpioKeyInit(void);$/;"	p	typeref:typename:long	file:
+gpioLed	kerneltimerLedKey.c	/^static int gpioLed[] = {6,7,8,9,10,11,12,13};$/;"	v	typeref:typename:int[]	file:
+gpioLedFree	kerneltimerLedKey.c	/^static void gpioLedFree(void)$/;"	f	typeref:typename:void	file:
+gpioLedFree	kerneltimerLedKey.c	/^static void gpioLedFree(void);$/;"	p	typeref:typename:void	file:
+gpioLedInit	kerneltimerLedKey.c	/^static long gpioLedInit(void)$/;"	f	typeref:typename:long	file:
+gpioLedInit	kerneltimerLedKey.c	/^static long gpioLedInit(void);$/;"	p	typeref:typename:long	file:
+gpioLedSet	kerneltimerLedKey.c	/^static void gpioLedSet(long val)$/;"	f	typeref:typename:void	file:
+gpioLedSet	kerneltimerLedKey.c	/^static void gpioLedSet(long);$/;"	p	typeref:typename:void	file:
+kerneltimer_exit	kerneltimerLedKey.c	/^void kerneltimer_exit(void)$/;"	f	typeref:typename:void
+kerneltimer_func	kerneltimerLedKey.c	/^void kerneltimer_func(struct timer_list *t)$/;"	f	typeref:typename:void
+kerneltimer_func	kerneltimerLedKey.c	/^void kerneltimer_func(struct timer_list *t);$/;"	p	typeref:typename:void	file:
+kerneltimer_init	kerneltimerLedKey.c	/^int kerneltimer_init(void)$/;"	f	typeref:typename:int
+kerneltimer_registertimer	kerneltimerLedKey.c	/^void kerneltimer_registertimer(unsigned long timeover)$/;"	f	typeref:typename:void
+key_data	kerneltimerLedKey.c	/^static long key_data;$/;"	v	typeref:typename:long	file:
+key_data_old	kerneltimerLedKey.c	/^static long key_data_old = 0;$/;"	v	typeref:typename:long	file:
+ledVal	kerneltimerLedKey.c	/^static int ledVal = 0;$/;"	v	typeref:typename:int	file:
+module_exit	kerneltimerLedKey.c	/^module_exit(kerneltimer_exit);$/;"	p	file:
+module_init	kerneltimerLedKey.c	/^module_init(kerneltimer_init);$/;"	p	file:
+timerLed	kerneltimerLedKey.c	/^struct timer_list timerLed;$/;"	v	typeref:struct:timer_list
+timerVal	kerneltimerLedKey.c	/^static int timerVal = 100; \/\/ f=100HZ, T=1\/100 = 10ms, 100*10ms = 1sec$/;"	v	typeref:typename:int	file:

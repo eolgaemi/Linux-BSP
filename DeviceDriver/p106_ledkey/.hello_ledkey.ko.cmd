@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/pi_bsp/drivers/p106_ledkey/hello_ledkey.ko := arm-linux-gnueabihf-ld -r  -EL -z noexecstack   --build-id=sha1  -T scripts/module.lds -o /home/ubuntu/pi_bsp/drivers/p106_ledkey/hello_ledkey.ko /home/ubuntu/pi_bsp/drivers/p106_ledkey/hello_ledkey.o /home/ubuntu/pi_bsp/drivers/p106_ledkey/hello_ledkey.mod.o;  true
